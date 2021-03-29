@@ -4,7 +4,7 @@ name()
 
 async function name() {
     const client = await mongodb.MongoClient.connect(
-        'mongodb://root:1@94.130.225.52:27017/', {
+        'mongosb address', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }
